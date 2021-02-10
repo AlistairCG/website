@@ -2,7 +2,7 @@
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
@@ -21,7 +21,7 @@ const App = () => {
         <Switch>
     
         <Route default exact path={ROUTES.Home} component={Home} />
-   
+        
         </Switch>
       </div>
   </Router>
