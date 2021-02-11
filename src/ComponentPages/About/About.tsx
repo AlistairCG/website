@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Home extends React.Component {
+class About extends Component {
 
     constructor(props: any) {
       super(props);
@@ -12,8 +12,8 @@ class Home extends React.Component {
     render = () => {
 
         return(
-            <h1>Hello World</h1>
+            <h1>About Page Component</h1>
         );
     }
 }
-export default Home;
+export default About;
